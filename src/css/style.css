@@ -1,0 +1,23 @@
+.App dl {
+    float: left;
+    padding-left: 0px;
+}
+
+.App dt, .App dd {
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+
+.App dt {
+
+    border: solid blue 1px;
+    clear: left;
+}
+
+.App dd {
+    border: solid red 1px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
