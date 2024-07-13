@@ -1,5 +1,5 @@
 import React from 'react';
-import Progress from './assets/components/Progress.jsx';
+import Progress from './components/Progress.jsx';
 
 class App extends React.Component {
     render() {
