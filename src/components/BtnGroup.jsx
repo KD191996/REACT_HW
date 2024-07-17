@@ -16,26 +16,29 @@ class BtnGroup extends React.Component {
         const { activeButton } = this.state;
 
         return (
-            <div className="btn-group" role="group">
-                <button
-                    type="button"
-                    className={classNames('btn', 'btn-secondary', 'left', {
-                        active: activeButton === 'left'
-                    })}
-                    onClick={() => this.handleButtonClick('left')}
-                >
-                    Left
-                </button>
-                <button
-                    type="button"
-                    className={classNames('btn', 'btn-secondary', 'right', {
-                        active: activeButton === 'right'
-                    })}
-                    onClick={() => this.handleButtonClick('right')}
-                >
-                    Right
-                </button>
+            <div className="container">
+                <div className="btn-group" role="group">
+                    <button
+                        type="button"
+                        className={classNames('btn', 'btn-secondary', 'left', {
+                            active: activeButton === 'left'
+                        })}
+                        onClick={() => this.handleButtonClick('left')}
+                    >
+                        Left
+                    </button>
+                    <button
+                        type="button"
+                        className={classNames('btn', 'btn-secondary', 'right', {
+                            active: activeButton === 'right'
+                        })}
+                        onClick={() => this.handleButtonClick('right')}
+                    >
+                        Right
+                    </button>
+                </div>
             </div>
+
         );
     }
 }
