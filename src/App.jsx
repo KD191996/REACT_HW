@@ -1,10 +1,11 @@
 import React from 'react';
+import Component from './component/Component.jsx';
 
 class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Card />
+                <Component />
             </div>
         );
     }
