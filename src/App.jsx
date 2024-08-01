@@ -1,14 +1,13 @@
 import React from 'react';
-
-class App extends React.Component {
-    render() {
-        return (
-            <div className="App">
-                <Card />
-            </div>
-        );
-    }
+import ToDoList from './components/ToDoList';
+function App() {
+    return (
+        <div className="App">
+            <ToDoList />
+        </div>
+    );
 }
+
 
 
 export default App
